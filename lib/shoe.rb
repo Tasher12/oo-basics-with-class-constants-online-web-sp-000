@@ -8,10 +8,7 @@ class Shoe
   
   def initialize(brand)
     @brand = brand
-    BRANDS << brand
-    if brand == "Nike" || "Uggs" || "Rainbow"
-      BRANDS << brand 
-    end 
+    BRANDS << brand.size(3)
   end
   
 

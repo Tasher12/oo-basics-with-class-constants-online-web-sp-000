@@ -4,13 +4,13 @@ class Shoe
 
 
   BRANDS = []
-  UNIQUE = []
+  
   
   def initialize(brand)
     @brand = brand
     BRANDS << brand
     while brand == "Nike" || "Uggs" || "Rainbow"
-      UNIQUE << brand 
+      BRANDS << brand 
     end 
   end
   

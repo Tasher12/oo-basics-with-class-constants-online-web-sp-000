@@ -11,13 +11,6 @@ class Shoe
     BRANDS << brand
   end
   
-  def unique_brands(brand)
-    @brand = brand
-    if brand=("Nike")
-      BRANDS << brand 
-    end
-  end
-  
 
   def cobble
     self.condition = "new"

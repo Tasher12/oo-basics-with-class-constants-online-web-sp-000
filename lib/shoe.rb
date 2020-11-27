@@ -6,7 +6,7 @@ class Shoe
   
   def initialize(brand)
     @brand = brand
-    BRANDS.size(3) << brand
+    BRANDS << brand
   end
   
 

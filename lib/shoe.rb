@@ -9,6 +9,9 @@ class Shoe
   def initialize(brand)
     @brand = brand
     BRANDS << brand
+    if brand == "Nike" || "Uggs" || "Rainbow"
+      UNIQUE << brand 
+    end 
   end
   
 

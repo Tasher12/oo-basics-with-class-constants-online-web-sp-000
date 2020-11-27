@@ -8,6 +8,7 @@ class Shoe
     @brand = brand
     if brand == "Nike"||"Ugg"||"Rainbow"
     BRANDS << brand
+    end 
   end
   
 

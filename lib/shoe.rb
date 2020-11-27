@@ -9,7 +9,7 @@ class Shoe
   def initialize(brand)
     @brand = brand
     BRANDS << brand
-    while brand == "Nike" || "Uggs" || "Rainbow"
+    if brand == "Nike" || "Uggs" || "Rainbow"
       BRANDS << brand 
     end 
   end

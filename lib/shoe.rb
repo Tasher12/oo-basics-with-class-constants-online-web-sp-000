@@ -8,7 +8,7 @@ class Shoe
     @brand = brand
     if brand.size = 3
     BRANDS << brand
-  end 
+    end 
   end
 
   def cobble

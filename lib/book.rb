@@ -18,4 +18,6 @@ class Book
   def genre=(genre)
     @genre = genre
     GENRES
+  end 
+  
 end

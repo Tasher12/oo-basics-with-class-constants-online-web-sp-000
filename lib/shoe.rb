@@ -14,7 +14,7 @@ class Shoe
   def unique_brands(brand)
     @brand = brand
     if brand == ""
-      BRANDS << BRANDS
+      BRANDS << brand 
     end
   end
   

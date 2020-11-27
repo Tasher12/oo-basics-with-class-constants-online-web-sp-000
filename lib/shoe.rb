@@ -4,6 +4,7 @@ class Shoe
 
 
   BRANDS = []
+  UNIQUE = []
   
   def initialize(brand)
     @brand = brand
